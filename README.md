@@ -15,7 +15,7 @@ This Python script demonstrates text detection and recognition using a combinati
                                                        
 1. Install the required libraries (Tesseract, OpenCV, and other dependencies).
 
-2. Configure Tesseract OCR by setting the executable path.
+2. Configure Tesseract OCR by setting the executable path.                                   
 
 3. Load an image, either from a URL or a local file.
 
