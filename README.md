@@ -12,7 +12,7 @@ This Python script demonstrates text detection and recognition using a combinati
 - Highlights specific patterns or words based on predefined patterns.
 
 ## Usage
-
+                                                       
 1. Install the required libraries (Tesseract, OpenCV, and other dependencies).
 
 2. Configure Tesseract OCR by setting the executable path.
