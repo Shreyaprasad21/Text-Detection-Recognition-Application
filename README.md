@@ -6,7 +6,7 @@ This Python script demonstrates text detection and recognition using a combinati
 ## Features
 
 - Imports necessary libraries for OCR and image processing.
-- Uses Tesseract OCR with custom configurations to extract text from an image.
+- Uses Tesseract OCR with custom configurations to extract text from an image.          
 - Performs image processing tasks with OpenCV, including grayscale conversion, noise removal, thresholding, erosion, Canny edge detection, deskew correction, and template matching.
 - Draws rectangles around detected text regions.
 - Highlights specific patterns or words based on predefined patterns.
