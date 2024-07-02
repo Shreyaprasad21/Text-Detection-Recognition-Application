@@ -1,5 +1,5 @@
 # Text_Detection_and_Recognition
-                                                                            
+                                                                                                                        
                      
 This Python script demonstrates text detection and recognition using a combination of Optical Character Recognition (OCR) and OpenCV techniques. It is a versatile tool for extracting text from images, which can be useful for various applications such as digitizing scanned documents or processing images containing complex text.
 
