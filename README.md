@@ -10,7 +10,7 @@ This Python script demonstrates text detection and recognition using a combinati
 - Performs image processing tasks with OpenCV, including grayscale conversion, noise removal, thresholding, erosion, Canny edge detection, deskew correction, and template matching.
 - Draws rectangles around detected text regions.
 - Highlights specific patterns or words based on predefined patterns.
-                                                                                              
+                                                                                                                                                                                                                      
 ## Usage
                                                        
 1. Install the required libraries (Tesseract, OpenCV, and other dependencies).
