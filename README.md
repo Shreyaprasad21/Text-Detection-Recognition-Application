@@ -1,31 +1,53 @@
-# Text_Detection_and_Recognition
-                                                                                                                        
-                     
-This Python script demonstrates text detection and recognition using a combination of Optical Character Recognition (OCR) and OpenCV techniques. It is a versatile tool for extracting text from images, which can be useful for various applications such as digitizing scanned documents or processing images containing complex text.
+# Text Detection App
+
+## Overview
+This Text Detection App uses Python libraries such as Tesseract, OpenCV, and Pillow to extract and process text from images. The app can handle simple text extraction as well as more complex image processing tasks to improve text detection accuracy. Additionally, a Flask web application is included to provide a user-friendly interface for the text detection functionality.
 
 ## Features
-        
-- Imports necessary libraries for OCR and image processing.
-- Uses Tesseract OCR with custom configurations to extract text from an image.                       
-- Performs image processing tasks with OpenCV, including grayscale conversion, noise removal, thresholding, erosion, Canny edge detection, deskew correction, and template matching.
-- Draws rectangles around detected text regions.
-- Highlights specific patterns or words based on predefined patterns.
-                                                                                                                                                                                                                      
+- Extract text from an image using Tesseract OCR.
+- Remove irrelevant symbols from extracted text.
+- Perform various image preprocessing operations using OpenCV:
+  - Grayscale conversion
+  - Noise removal
+  - Thresholding
+  - Erosion
+  - Morphology operations
+  - Canny edge detection
+  - Skew correction
+  - Template matching
+- Draw rectangles around detected text.
+- Highlight specific words or patterns in the image.
+
+## Requirements
+- Python 3.x
+- Requests
+- Pillow
+- pytesseract
+- OpenCV
+- numpy
+- re
+- Flask
+
+## Installation
+1. Install Tesseract OCR from [here](https://github.com/tesseract-ocr/tesseract). Ensure that Tesseract is added to your system path.
+2. Install the required Python packages:
+    ```bash
+    pip install requests
+    pip install pillow
+    pip install pytesseract
+    pip install opencv-python
+    pip install numpy
+    pip install flask
+    ```
+
 ## Usage
-                                                       
-1. Install the required libraries (Tesseract, OpenCV, and other dependencies).
-
-2. Configure Tesseract OCR by setting the executable path.                                   
-
-3. Load an image, either from a URL or a local file.
-
-4. Run the script to extract and process text from the image.
-
-5. Adjust configurations and patterns for your specific use case.
-
-## Example
-
-You can see the code in action by running it and exploring the results in the provided example image ('sample.png').
-
-```bash
-python text_detection_recognition.py
+1. Ensure Tesseract is correctly installed and its path is configured in the script.
+2. Navigate to the folder containing the app:
+    ```bash
+    cd path/to/your/app
+    ```
+3. Run the Flask application:
+    ```bash
+    python app.py
+    ```
+4. Open a web browser and go to `http://127.0.0.1:5000/` to access the application.
