@@ -44,7 +44,7 @@ This Text Detection App uses Python libraries such as Tesseract, OpenCV, and Pil
 1. Ensure Tesseract is correctly installed and its path is configured in the script.
 2. Navigate to the folder containing the app:
     ```bash
-    cd Text Extraction Flask App/app
+    cd Text Extraction Flask App
     ```
 3. Run the Flask application:
     ```bash
