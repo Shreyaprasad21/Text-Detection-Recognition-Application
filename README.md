@@ -3,7 +3,7 @@
 ## Overview
 This Text Detection App uses Python libraries such as Tesseract, OpenCV, and Pillow to extract and process text from images. The app can handle simple text extraction as well as more complex image processing tasks to improve text detection accuracy. Additionally, a Flask web application is included to provide a user-friendly interface for the text detection functionality.
 
-## Features
+## Features     
 - Extract text from an image using Tesseract OCR.
 - Remove irrelevant symbols from extracted text.
 - Perform various image preprocessing operations using OpenCV:
