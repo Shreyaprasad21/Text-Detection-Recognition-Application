@@ -10,7 +10,7 @@ This Text Detection App uses Python libraries such as Tesseract, OpenCV, and Pil
   - Grayscale conversion
   - Noise removal
   - Thresholding
-  - Erosion
+  - Erosion  
   - Morphology operations
   - Canny edge detection
   - Skew correction
