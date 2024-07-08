@@ -5,7 +5,7 @@ This Text Detection App uses Python libraries such as Tesseract, OpenCV, and Pil
 
 ## Features     
 - Extract text from an image using Tesseract OCR.
-- Remove irrelevant symbols from extracted text.
+- Remove irrelevant symbols from extracted text. 
 - Perform various image preprocessing operations using OpenCV:
   - Grayscale conversion
   - Noise removal
