@@ -13,7 +13,7 @@ This Text Detection App uses Python libraries such as Tesseract, OpenCV, and Pil
   - Erosion  
   - Morphology operations
   - Canny edge detection
-  - Skew correction
+  - Skew correction  
   - Template matching
 - Draw rectangles around detected text.
 - Highlight specific words or patterns in the image.
